@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title data-i18n="extension_name">為什麼你們就是不能加個空格呢？</title>
+    <title data-i18n="extension_name">中英文自動加空格</title>
     <link rel="stylesheet" href="../stylesheets/styles.css" />
     <link rel="stylesheet" href="../stylesheets/options.css" />
     <script type="module" src="../dist/options.js"></script>
@@ -22,28 +22,27 @@
               </g>
             </svg>
             <div>
-              <h1 class="options-title" data-i18n="extension_name">為什麼你們就是不能加個空格呢？</h1>
-              <p class="options-description" data-i18n="options_subtitle">自動在網頁的中文和英文、數字、符號之間插入空白</p>
+              <h1 class="options-title" data-i18n="extension_name">中英文自動加空格</h1>
+              <p class="options-description" data-i18n="options_subtitle">自動在中文與英文、數字、符號之間插入空格</p>
             </div>
           </div>
           <blockquote class="options-quote" data-i18n="quote">
-            漢學家稱這個空白字元為「盤古之白」，因為它劈開了全形字和半形字之間的混沌。江湖上也有傳言，打字的時候不喜歡在中文和英文之間加空格的人，感情路都走得很辛苦，有七成的比例會在 34
-            歲的時候跟自己不愛的人結婚，而其餘三成的人最後只能把遺產留給自己的貓。畢竟愛情跟書寫都需要適時地留白。
+            中文排版慣例：中文與英文、數字之間應留出空格。本擴充功能在頁面載入後自動完成這件事，你不需要手動輸入空格。
           </blockquote>
         </div>
 
         <!-- Spacing Mode Section -->
         <div class="options-section">
-          <h2 class="options-section-title" data-i18n="label_settings">設定</h2>
+          <h2 class="options-section-title" data-i18n="label_settings">空格設定</h2>
           <div class="card">
             <div class="form-group">
-              <button id="spacing-mode-btn" class="btn btn-primary btn-lg btn-block" data-i18n="spacing_when_load">網頁載入後自動召喚空格之神</button>
-              <p class="form-help-text" id="spacing-when-click-msg" hidden data-i18n="spacing_when_click_msg">你可以按右上角那個黑人頭來召喚空格之神！</p>
+              <button id="spacing-mode-btn" class="btn btn-primary btn-lg btn-block" data-i18n="spacing_when_load">頁面載入時自動加空格</button>
+              <p class="form-help-text" id="spacing-when-click-msg" hidden data-i18n="spacing_when_click_msg">目前為手動模式：點擊瀏覽器工具列的擴充功能圖示，再點「立即加空格」。</p>
             </div>
           </div>
           <div id="filter-mode-section" class="card mt-4">
             <div class="form-group">
-              <button id="filter-mode-btn" class="btn btn-primary btn-lg btn-block" data-i18n="blacklist">不要在這些網頁召喚空格之神</button>
+              <button id="filter-mode-btn" class="btn btn-primary btn-lg btn-block" data-i18n="blacklist">排除這些網站，不加空格</button>
             </div>
             <div class="url-list-section">
               <!-- Template elements (hidden by default) -->
@@ -97,7 +96,7 @@
               <label class="toggle">
                 <input type="checkbox" class="toggle-input" id="mute-checkbox" />
                 <span class="toggle-switch"></span>
-                <span class="toggle-label" data-i18n="label_is_sound_effects_muted">太吵了，靜音</span>
+                <span class="toggle-label" data-i18n="label_is_sound_effects_muted">靜音音效</span>
               </label>
             </div>
           </div>
@@ -105,20 +104,20 @@
 
         <!-- Hidden Settings Section -->
         <div class="options-section">
-          <h2 class="options-section-title" data-i18n="label_hidden_settings">隱藏設定</h2>
+          <h2 class="options-section-title" data-i18n="label_hidden_settings">進階設定</h2>
           <div class="card">
             <div class="options-toggle-section">
               <label class="toggle">
                 <input type="checkbox" class="toggle-input" id="text-autospace-checkbox" />
                 <span class="toggle-switch"></span>
-                <span class="toggle-label" data-i18n="label_is_text_autospace_enabled">佛系空格</span>
+                <span class="toggle-label" data-i18n="label_is_text_autospace_enabled">瀏覽器原生間距</span>
               </label>
               <p class="form-help-text" data-i18n-html="text_autospace_description">
-                讓<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-autospace" target="_blank">瀏覽器直接渲染中文和英文、數字之間的間距</a>。
-                純視覺效果，不會插入任何空白字元，所以複製的文字不受影響。會套用到所有網站，無視黑名單和白名單。
+                由<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-autospace" target="_blank">瀏覽器直接渲染</a>中文與英文、數字之間的間距。
+                只影響顯示，不插入空格字元，因此複製的文字不受影響；對所有網站生效，不受排除清單與白名單限制。
               </p>
-              <p class="form-help-text" data-i18n="text_autospace_limitations">但是缺點是不支援符號而且那個間距比真正的空格窄很多，建議還是跟空格之神搭配使用。</p>
-              <p class="form-help-text" id="text-autospace-not-supported-msg" hidden data-i18n="text_autospace_not_supported">你的瀏覽器不支援這個功能，需要 Chrome v140 以上版本。</p>
+              <p class="form-help-text" data-i18n="text_autospace_limitations">限制：不處理符號，且間距比真正的空格窄，建議與「頁面載入時自動加空格」一起開啟。</p>
+              <p class="form-help-text" id="text-autospace-not-supported-msg" hidden data-i18n="text_autospace_not_supported">目前瀏覽器不支援此功能，需要 Chrome 140 或更高版本。</p>
             </div>
           </div>
           <div class="card mt-4">
@@ -126,16 +125,15 @@
               <label class="toggle">
                 <input type="checkbox" class="toggle-input" id="ai-spacing-checkbox" />
                 <span class="toggle-switch"></span>
-                <span class="toggle-label" data-i18n="label_is_ai_spacing_enabled">空格之神 AI</span>
+                <span class="toggle-label" data-i18n="label_is_ai_spacing_enabled">AI 判斷符號空格</span>
               </label>
               <p class="form-help-text" data-i18n-html="ai_spacing_description">
-                某些符號（例如 <code>+</code> 或 <code>-</code>）在不同語境下的意思完全不一樣，只靠空格之神原有的靜態規則來判斷到底要不要加空格是有極限的，但是 LLM 正好彌補了這個不足，於是 ──
-                各位觀眾，空格之神 AI 強勢登場！
+                <code>+</code>、<code>-</code> 等符號在不同語境下含義不同（例如「第 3-5 頁」與「3-5=2」），靜態規則無法可靠判斷。開啟後由瀏覽器內建模型判斷符號兩側是否需要空格。
               </p>
               <p class="form-help-text" data-i18n-html="ai_spacing_description_2">
                 使用瀏覽器內建的
-                <a href="https://developer.chrome.com/docs/ai/prompt-api" target="_blank">Prompt API</a>
-                模型，所有的操作只在你的電腦上運行（完全離線，沒有任何資料會被上傳到雲端），更重要的是：不用錢，所以就不要期待這個模型有多強了。
+                <a href="https://developer.chrome.com/docs/ai/prompt-api" target="_blank">Prompt API</a>，
+                全部在本機執行，不連網也不上傳資料。模型能力有限，僅用於判斷符號兩側的空格。
               </p>
               <div class="ai-model-row">
                 <button id="ai-model-download-btn" class="btn" style="display: none" data-i18n="button_download_ai_model">下載模型</button>
@@ -143,7 +141,7 @@
               </div>
             </div>
           </div>
-          <p class="options-section-note" data-i18n="settings_refresh_required">部分功能需要重新整理網頁之後才會生效</p>
+          <p class="options-section-note" data-i18n="settings_refresh_required">部分設定需要重新整理頁面後生效</p>
         </div>
 
         <!-- Footer -->

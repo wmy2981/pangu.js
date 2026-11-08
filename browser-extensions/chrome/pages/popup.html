@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title data-i18n="extension_name">為什麼你們就是不能加個空格呢？</title>
+    <title data-i18n="extension_name">中英文自動加空格</title>
     <link rel="stylesheet" href="../stylesheets/styles.css" />
     <link rel="stylesheet" href="../stylesheets/popup.css" />
     <script type="module" src="../dist/popup.js"></script>
@@ -25,8 +25,8 @@
             </g>
           </svg>
           <div>
-            <h1 class="popup-title" data-i18n="extension_name">為什麼你們就是不能加個空格呢？</h1>
-            <p class="popup-subtitle" data-i18n="popup_subtitle">讓空格之神赦免他們不加空格的罪</p>
+            <h1 class="popup-title" data-i18n="extension_name">中英文自動加空格</h1>
+            <p class="popup-subtitle" data-i18n="popup_subtitle">在中文與英文、數字、符號之間自動補空格</p>
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@
           <label class="toggle">
             <input type="checkbox" class="toggle-input" id="spacing-mode-toggle" />
             <span class="toggle-switch"></span>
-            <span class="toggle-label" data-i18n="spacing_when_load">網頁載入後自動召喚空格之神</span>
+            <span class="toggle-label" data-i18n="spacing_when_load">頁面載入時自動加空格</span>
           </label>
         </div>
 
@@ -47,7 +47,7 @@
           <label class="toggle">
             <input type="checkbox" class="toggle-input" id="mute-toggle" />
             <span class="toggle-switch"></span>
-            <span class="toggle-label" data-i18n="label_is_sound_effects_muted">太吵了，靜音</span>
+            <span class="toggle-label" data-i18n="label_is_sound_effects_muted">靜音音效</span>
           </label>
         </div>
 
@@ -60,8 +60,8 @@
               class="toggle-label"
               data-i18n="label_is_text_autospace_enabled"
               data-i18n-title="text_autospace_tooltip"
-              title="讓瀏覽器直接渲染中文和英文、數字之間的間距。純視覺效果，不會插入任何空白字元，所以複製的文字不受影響。會套用到所有網站，無視黑名單和白名單。"
-              >佛系空格</span
+              title="由瀏覽器直接渲染中文與英文、數字之間的間距。只影響顯示，不插入空格字元，因此複製的文字不受影響；對所有網站生效，不受排除清單與白名單限制。"
+              >瀏覽器原生間距</span
             >
           </label>
         </div>
@@ -74,8 +74,8 @@
               class="toggle-label"
               data-i18n="label_is_ai_spacing_enabled"
               data-i18n-title="ai_spacing_tooltip"
-              title="某些符號（例如 + 或 -）在不同語境下的意思完全不一樣，只靠空格之神原有的靜態規則來判斷到底要不要加空格是有極限的，但是 LLM 正好彌補了這個不足，於是 ── 各位觀眾，空格之神 AI 強勢登場！"
-              >空格之神 AI</span
+              title="+、- 等符號在不同語境下含義不同（例如「第 3-5 頁」與「3-5=2」），靜態規則無法可靠判斷。開啟後由瀏覽器內建模型判斷符號兩側是否需要空格。"
+              >AI 判斷符號空格</span
             >
           </label>
         </div>
@@ -85,18 +85,18 @@
           <label class="toggle toggle-status">
             <input type="checkbox" class="toggle-input" id="status-toggle-input" disabled />
             <span class="toggle-switch"></span>
-            <span class="toggle-label" id="status-toggle-label" data-i18n="status_inactive">空格之神神隱中</span>
+            <span class="toggle-label" id="status-toggle-label" data-i18n="status_inactive">本頁未加空格</span>
           </label>
         </div>
 
         <!-- Manual spacing button -->
         <div class="popup-section mt-4">
-          <button class="btn btn-primary btn-block" id="manual-spacing-btn" data-i18n="manual_spacing">召喚空格之神</button>
+          <button class="btn btn-primary btn-block" id="manual-spacing-btn" data-i18n="manual_spacing">立即加空格</button>
         </div>
 
         <!-- Add to blacklist button -->
         <div class="popup-section">
-          <button class="btn btn-primary btn-block" id="add-to-blacklist-btn" data-i18n="add_to_blacklist">把這個網址加到黑名單</button>
+          <button class="btn btn-primary btn-block" id="add-to-blacklist-btn" data-i18n="add_to_blacklist">將此網站加入排除清單</button>
         </div>
       </div>
 
@@ -104,7 +104,7 @@
       <div class="popup-footer">
         <div class="popup-footer-links">
           <a href="options.html" target="_blank" data-i18n="settings">設定</a>
-          <a href="https://chromewebstore.google.com/detail/paphcfdffjnbcgkokihcdjliihicmbpd/reviews" target="_blank" data-i18n="extension_rate">評價</a>
+          <a href="https://chromewebstore.google.com/detail/paphcfdffjnbcgkokihcdjliihicmbpd/reviews" target="_blank" data-i18n="extension_rate">評分</a>
           <a href="https://github.com/vinta/pangu.js" target="_blank">GitHub</a>
         </div>
         <span>v<span id="version">x.y.z</span></span>

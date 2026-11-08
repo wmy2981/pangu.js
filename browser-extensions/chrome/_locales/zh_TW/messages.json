@@ -1,38 +1,38 @@
 {
   "extension_name": {
-    "message": "為什麼你們就是不能加個空格呢？",
+    "message": "中英文自動加空格",
     "description": ""
   },
   "extension_description": {
-    "message": "自動在網頁的中文和英文、數字、符號之間插入空白。（攤手）沒辦法，處女座都有強迫症。",
+    "message": "自動在網頁的中文與英文、數字、符號之間插入空格，改善中文排版的可讀性。",
     "description": ""
   },
-  "god_of_spacing": {
-    "message": "空格之神",
+  "extension_short_name": {
+    "message": "自動加空格",
     "description": ""
   },
   "popup_subtitle": {
-    "message": "讓空格之神赦免他們不加空格的罪",
+    "message": "在中文與英文、數字、符號之間自動補空格",
     "description": ""
   },
   "spacing_when_load": {
-    "message": "網頁載入後自動召喚空格之神",
+    "message": "頁面載入時自動加空格",
     "description": ""
   },
   "spacing_when_click": {
-    "message": "我要自己召喚空格之神",
+    "message": "僅在點擊時加空格",
     "description": ""
   },
   "status_inactive": {
-    "message": "空格之神神隱中",
+    "message": "本頁未加空格",
     "description": ""
   },
   "status_active": {
-    "message": "空格之神顯靈中",
+    "message": "本頁已加空格",
     "description": ""
   },
   "manual_spacing": {
-    "message": "召喚空格之神",
+    "message": "立即加空格",
     "description": ""
   },
   "settings": {
@@ -40,71 +40,71 @@
     "description": ""
   },
   "extension_rate": {
-    "message": "評價",
+    "message": "評分",
     "description": ""
   },
   "spacing_fail": {
-    "message": "在這種地方是召喚不出空格之神的，除非你在七七四十九天之內都能夠不懷著淫狎之念上網",
+    "message": "目前頁面不支援加空格，例如瀏覽器內建頁面或擴充功能商店頁面",
     "description": ""
   },
   "spacing_success": {
-    "message": "空格之神赦免他們的罪",
+    "message": "已為本頁加空格",
     "description": ""
   },
   "spacing_processing": {
-    "message": "降落中...",
+    "message": "處理中…",
     "description": ""
   },
   "refresh_required": {
-    "message": "重新整理網頁之後才會生效",
+    "message": "重新整理頁面後生效",
     "description": ""
   },
   "add_to_blacklist": {
-    "message": "把這個網址加到黑名單",
+    "message": "將此網站加入排除清單",
     "description": ""
   },
   "already_in_list": {
-    "message": "已經加過了啦",
+    "message": "已在清單中",
     "description": ""
   },
   "options_subtitle": {
-    "message": "自動在網頁的中文和英文、數字、符號之間插入空白",
+    "message": "自動在中文與英文、數字、符號之間插入空格",
     "description": ""
   },
   "quote": {
-    "message": "漢學家稱這個空白字元為「盤古之白」，因為它劈開了全形字和半形字之間的混沌。江湖上也有傳言，打字的時候不喜歡在中文和英文之間加空格的人，感情路都走得很辛苦，有七成的比例會在 34 歲的時候跟自己不愛的人結婚，而其餘三成的人最後只能把遺產留給自己的貓。畢竟愛情跟書寫都需要適時地留白。",
+    "message": "中文排版慣例：中文與英文、數字之間應留出空格。本擴充功能在頁面載入後自動完成這件事，你不需要手動輸入空格。",
     "description": ""
   },
   "label_settings": {
-    "message": "設定",
+    "message": "空格設定",
     "description": ""
   },
   "spacing_when_click_msg": {
-    "message": "你可以按右上角那個黑人頭來召喚空格之神！",
+    "message": "目前為手動模式：點擊瀏覽器工具列的擴充功能圖示，再點「立即加空格」。",
     "description": ""
   },
   "blacklist": {
-    "message": "不要在這些網頁召喚空格之神",
+    "message": "排除這些網站，不加空格",
     "description": ""
   },
   "whitelist": {
-    "message": "只在這些網頁召喚空格之神",
+    "message": "僅在這些網站加空格",
     "description": ""
   },
   "button_remove": {
-    "message": "刪掉",
+    "message": "刪除",
     "description": ""
   },
   "button_save": {
-    "message": "好了",
+    "message": "儲存",
     "description": ""
   },
   "button_cancel": {
-    "message": "算了",
+    "message": "取消",
     "description": ""
   },
   "empty_list": {
-    "message": "這個列表空無一物，就跟你的靈魂一樣",
+    "message": "清單為空",
     "description": ""
   },
   "button_add_new_url": {
@@ -112,23 +112,23 @@
     "description": ""
   },
   "placeholder_enter_url": {
-    "message": "輸入網址，例如 https://vinta.ws/*",
+    "message": "輸入網址規則，例如 https://example.com/*",
     "description": ""
   },
   "error_invalid_match_pattern": {
-    "message": "網址的格式不對啦！用心一點好不好？算了，你這輩子大概就這樣了",
+    "message": "網址格式不正確，請使用比對規則，例如 https://example.com/*",
     "description": ""
   },
   "button_restore_defaults": {
-    "message": "恢復原廠設定",
+    "message": "還原預設值",
     "description": ""
   },
   "confirm_restore_defaults": {
-    "message": "確定要恢復原廠設定嗎？",
+    "message": "確定還原預設清單？自訂的網址會被取代。",
     "description": ""
   },
   "link_learn_match_patterns": {
-    "message": "你可以在網址裡用 * (wildcard)",
+    "message": "網址比對規則說明（可用 * 萬用字元）",
     "description": ""
   },
   "label_other_settings": {
@@ -136,19 +136,19 @@
     "description": ""
   },
   "label_is_sound_effects_muted": {
-    "message": "太吵了，靜音",
+    "message": "靜音音效",
     "description": ""
   },
   "label_hidden_settings": {
-    "message": "隱藏設定",
+    "message": "進階設定",
     "description": ""
   },
   "label_is_text_autospace_enabled": {
-    "message": "佛系空格",
+    "message": "瀏覽器原生間距",
     "description": ""
   },
   "text_autospace_description": {
-    "message": "讓$link_open$瀏覽器直接渲染中文和英文、數字之間的間距$link_close$。純視覺效果，不會插入任何空白字元，所以複製的文字不受影響。會套用到所有網站，無視黑名單和白名單。",
+    "message": "由$link_open$瀏覽器直接渲染$link_close$中文與英文、數字之間的間距。只影響顯示，不插入空格字元，因此複製的文字不受影響；對所有網站生效，不受排除清單與白名單限制。",
     "description": "",
     "placeholders": {
       "link_open": {
@@ -160,23 +160,23 @@
     }
   },
   "text_autospace_tooltip": {
-    "message": "讓瀏覽器直接渲染中文和英文、數字之間的間距。純視覺效果，不會插入任何空白字元，所以複製的文字不受影響。會套用到所有網站，無視黑名單和白名單。",
+    "message": "由瀏覽器直接渲染中文與英文、數字之間的間距。只影響顯示，不插入空格字元，因此複製的文字不受影響；對所有網站生效，不受排除清單與白名單限制。",
     "description": ""
   },
   "text_autospace_limitations": {
-    "message": "但是缺點是不支援符號而且那個間距比真正的空格窄很多，建議還是跟空格之神搭配使用。",
+    "message": "限制：不處理符號，且間距比真正的空格窄，建議與「頁面載入時自動加空格」一起開啟。",
     "description": ""
   },
   "text_autospace_not_supported": {
-    "message": "你的瀏覽器不支援這個功能，需要 Chrome v140 以上版本。",
+    "message": "目前瀏覽器不支援此功能，需要 Chrome 140 或更高版本。",
     "description": ""
   },
   "label_is_ai_spacing_enabled": {
-    "message": "空格之神 AI",
+    "message": "AI 判斷符號空格",
     "description": ""
   },
   "ai_spacing_description": {
-    "message": "某些符號（例如 $code_open$+$code_close$ 或 $code_open$-$code_close$）在不同語境下的意思完全不一樣，只靠空格之神原有的靜態規則來判斷到底要不要加空格是有極限的，但是 LLM 正好彌補了這個不足，於是 ── 各位觀眾，空格之神 AI 強勢登場！",
+    "message": "$code_open$+$code_close$、$code_open$-$code_close$ 等符號在不同語境下含義不同（例如「第 3-5 頁」與「3-5=2」），靜態規則無法可靠判斷。開啟後由瀏覽器內建模型判斷符號兩側是否需要空格。",
     "description": "",
     "placeholders": {
       "code_open": {
@@ -188,11 +188,11 @@
     }
   },
   "ai_spacing_tooltip": {
-    "message": "某些符號（例如 + 或 -）在不同語境下的意思完全不一樣，只靠空格之神原有的靜態規則來判斷到底要不要加空格是有極限的，但是 LLM 正好彌補了這個不足，於是 ── 各位觀眾，空格之神 AI 強勢登場！",
+    "message": "+、- 等符號在不同語境下含義不同（例如「第 3-5 頁」與「3-5=2」），靜態規則無法可靠判斷。開啟後由瀏覽器內建模型判斷符號兩側是否需要空格。",
     "description": ""
   },
   "ai_spacing_description_2": {
-    "message": "使用瀏覽器內建的 $link_open$Prompt API$link_close$ 模型，所有的操作只在你的電腦上運行（完全離線，沒有任何資料會被上傳到雲端），更重要的是：不用錢，所以就不要期待這個模型有多強了。",
+    "message": "使用瀏覽器內建的 $link_open$Prompt API$link_close$，全部在本機執行，不連網也不上傳資料。模型能力有限，僅用於判斷符號兩側的空格。",
     "description": "",
     "placeholders": {
       "link_open": {
@@ -204,23 +204,23 @@
     }
   },
   "ai_model_unsupported": {
-    "message": "你的瀏覽器不支援這個功能",
+    "message": "目前瀏覽器不支援",
     "description": ""
   },
   "ai_model_unavailable": {
-    "message": "模型無法運作",
+    "message": "模型無法使用",
     "description": ""
   },
   "ai_model_downloadable": {
-    "message": "模型還沒下載",
+    "message": "模型尚未下載",
     "description": ""
   },
   "ai_model_downloading": {
-    "message": "模型下載中",
+    "message": "模型下載中…",
     "description": ""
   },
   "ai_model_available": {
-    "message": "模型運作中",
+    "message": "模型就緒",
     "description": ""
   },
   "button_download_ai_model": {
@@ -228,7 +228,7 @@
     "description": ""
   },
   "settings_refresh_required": {
-    "message": "部分功能需要重新整理網頁之後才會生效",
+    "message": "部分設定需要重新整理頁面後生效",
     "description": ""
   }
 }

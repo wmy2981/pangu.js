@@ -59,7 +59,7 @@ export function shouldAutoSpace(settings: Settings, url: string) {
   return settings.spacing_mode === 'spacing_when_load' && !isUrlExcludedByFilter(settings, url);
 }
 
-// Drives the popup status row (顯靈中/神隱中): stricter than shouldShowOffIcon below, it also reports pages the extension cannot run on as inactive
+// Drives the popup status row (status_active/status_inactive): stricter than shouldShowOffIcon below, it also reports pages the extension cannot run on as inactive
 export function shouldShowActiveStatus(settings: Settings, url: string | undefined) {
   if (!url || !isValidUrl(url)) {
     return false;
